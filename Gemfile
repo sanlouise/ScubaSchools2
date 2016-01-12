@@ -28,4 +28,7 @@ gem 'spring',   group: :development
 gem 'rails_12factor', group: :production
 # Use CarrierWave for image production
 gem 'carrierwave'
-
+# Use fog for Amazon Hosting
+gem 'fog', '1.37.0'
+# To protect ASW passwords
+gem 'figaro'
