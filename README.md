@@ -1,24 +1,35 @@
+This Ruby on Rails app is Yelp for scuba schools.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Installation
 
+```
+git clone https://github.com/sanlouise/ScubaSchools2.git
 
-Welcome to your Rails project on Cloud9 IDE!
+bundle
 
-To get started, just do the following:
+bundle exec rake db:migrate
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://scubaschools2-sandralouise.c9users.io/).
+rails server
+```
 
-Happy coding!
-The Cloud9 IDE team
+The app will now be running on localhost:3000.
 
+## Usage
 
-## Support & Documentation
+View the app live at [http://scubalist.herokuapp.com/](https://scubalist.herokuapp.com/).
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## Credits
+
+* [Sandra Adams-Hallie](https://github.com/sanlouise)
+
+## License
+
+MIT License. View it [here](https://github.com/sanlouise/ScubaSchools2/blob/master/LICENSE).
